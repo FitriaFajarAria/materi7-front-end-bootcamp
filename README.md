@@ -2,7 +2,7 @@
 
 # React-Context
 
-Context merupakan sebuah cara untuk membuat global state yang nanti bisa digunakan di semua level komponen tanpa harus mengirim props ke lower level component secara manual. Context ini merupakan alternatif dari props drilling, props drilling sendiri adalah cara mempassing props dari grandparent ke parent ke child ke grandchild dan seterusnya, Context adalah state management built in React.
+Context merupakan sebuah cara untuk membuat global state yang nanti bisa digunakan di semua level komponen tanpa harus mengirim props ke lower level component secara manual. Context ini merupakan alternatif dari props drilling, props drilling sendiri adalah cara mempassing props dari grandparent ke parent ke child ke grandchild dan seterusnya, Context adalah state management built in React. Conteks digunakan untuk berbagi data yang dapat dianggap "global" untuk struktur komponen React dan menggunakan data tersebut jika diperlukan, seperti pengguna yang diautentikasi saat ini, tema, dll.
 
 ![context](https://storage.googleapis.com/kotakode-prod-public/images/cfe2535c-4002-49d7-8f9f-3a8921a0f0a4-Context-API-vs-Props-Drilling.png)
 
